@@ -26,6 +26,7 @@
     border: 1px solid lightgray;
     padding: 5px 20px;
     width: 300px;
+    border-radius: .2em;
 }
 
 h1 {
@@ -62,6 +63,10 @@ label:nth-of-type(2) {
     margin: 10px 0 10px 0;
 }
 
+#submit:hover {
+    cursor: pointer;
+}
+
 .password-text a {
     float: right;
     font-size: 12px;
@@ -80,10 +85,6 @@ label:nth-of-type(2) {
 
 /* Section One Styling */
 .section-one-container {
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    width: 300px; */
     width: 300px;
 }
 
