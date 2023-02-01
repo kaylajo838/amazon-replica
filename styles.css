@@ -2,4 +2,163 @@
     margin: 0;
     padding: 0;
     font-family: 'Roboto', sans-serif;
-} 
+}
+
+/* Header Styling */
+.header-container {
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+}
+
+.header-logo {
+    width: 103px;
+}
+
+/* Form Container Styling */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form-container {
+    border: 1px solid lightgray;
+    padding: 5px 20px;
+    width: 300px;
+}
+
+h1 {
+    margin-bottom: 10px;
+    font-size: 25px;
+    font-weight: 400;
+}
+
+label:nth-of-type(1),
+label:nth-of-type(2) {
+    font-size: 12px;
+}
+
+#email {
+    width: 100%;
+    margin: 5px 0 20px 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#password {
+    width: 100%;
+    margin: 5px 0;
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+#submit {
+    width: 100%;
+    background-color: #ffbb00;
+    padding: 5px 0;
+    border: 1px solid grey;
+    border-radius: .2em;
+    margin: 10px 0 10px 0;
+}
+
+.password-text a {
+    float: right;
+    font-size: 12px;
+}
+
+.form-container ul {
+    list-style-type: none;
+    margin: 10px 0 15px 15px;
+    font-size: 13px;
+}
+
+.form-container a {
+    color: #003cff;
+    text-decoration: none;
+}
+
+/* Section One Styling */
+.section-one-container {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 300px; */
+    width: 300px;
+}
+
+.p-txt {
+    overflow: hidden;
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+    margin-top: 10px;
+  }
+  
+.p-txt:before,
+.p-txt:after {
+    background-color: grey;
+    content: "";
+    display: inline-block;
+    height: 1px;
+    position: relative;
+    vertical-align: middle;
+    width: 50%;
+}
+  
+.p-txt:before {
+    right: 0.5em;
+    margin-left: -50%;
+}
+  
+.p-txt:after {
+    left: 0.5em;
+    margin-right: -50%;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+    margin: 10px 0 30px 0;
+    width: 300px;
+}
+
+.btn-container button {
+    width: 100%;
+    padding: 5px 0;
+    font-size: 12px;
+    border: 1px solid #c4c4c4;
+    border-radius: .2em;
+}
+
+/* Footer Styling */
+.footer-container {
+    display: flex;
+    flex-direction: column;
+}
+
+hr {
+    width: 100vw;
+    margin: 30px 0;
+}
+
+.footer-links {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.footer-links a {
+    text-decoration: none;
+    color: #003cff;
+    font-size: 12px;
+}
+
+.footer-container p {
+    text-align: center;
+    margin: 20px;
+    font-size: 12px;
+}
