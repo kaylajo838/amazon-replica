@@ -132,6 +132,10 @@ label:nth-of-type(2) {
     border-radius: .2em;
 }
 
+.btn-container button:hover {
+    cursor: pointer;
+}
+
 /* Footer Styling */
 .footer-container {
     display: flex;
